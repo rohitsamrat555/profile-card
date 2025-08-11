@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #416f95;
+    }
+    .profile-card {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(248, 245, 245, 0.863);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+    .profile-card .image {
+      background-color: #232f32cb;
+      padding: 20px;
+    }
+    .profile-card .image .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 5px solid rgba(180, 20, 137, 0);
+    }
+    .profile-card .fb {
+      padding: 20px;
+    }
+    .profile-card .fb h2 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    .profile-card .fb p {
+      color: gray;
+      margin: 5px 0;
+    }
+    .media-buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .media-buttons .link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      text-decoration: none;
+      color: rgb(19, 66, 65);
+      height: 34px;
+      width: 34px;
+      margin: 0 8px;
+      font-size: 25px;
+    }
+    .media-buttons .facebook {
+      background-color: #3028a9ec;
+    }
+    .media-buttons .twitter {
+      background-color: #1da1fe;
+    }
+    .media-buttons .instagram {
+      background-color: #e1206c;
+    }
+    .media-buttons .linkedin {
+      background-color: #0830a9;
+    }
+    .media-buttons .youtube {
+      background-color: #ff0000;
+    }
+    .media-buttons .whatsapp {
+      background-color: #1aff00fa;
+    }
+    .contain {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .contain .mb {
+      background-color: #1E90FF;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 24px;
+      cursor: pointer;
+    }
+    .social-stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      border-top: 0px solid #f0f0f0;
+    }
+    .social-stats .data {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <div class="image">
+      <img src="mehra.jpg" alt="rohiths Image" class="profile-img">x
+    </div>
+    <div class="fb">
+      <h2>samrat rohit</h2>
+      <p>Student</p>
+      <p>CMR Technical Campus</p>
+      
+    </div>
+    <div class="media-buttons">
+      <a href="#" style ="background-color: #4267b2;" class="link">
+        <i class='bx bxl-facebook'></i>
+      </a>
+      <a href="#" style ="background-color: #1da1fe;" class="link">
+        <i class='bx bxl-twitter'></i>
+      </a>
+      <a href="#" style ="background-color: #e1206c" class="link">
+        <i class='bx bxl-instagram'></i>
+      </a>
+      <a href="#" style ="background-color:#0838a9"class="link">
+        <i class='bx bxl-linkedin'></i>
+      </a>
+      <a href="#" style ="background-color: #ff0000"class="link">
+        <i class='bx bxl-youtube'></i>
+      </a>
+      <a href="#" style ="background-color: #51ff00"class="link">
+        <i class='bx bxl-whatsapp'></i>
+      <a/>
+  </div>
+    <div class="contain">
+      <button class="mb">Follow</button>
+      <button class="mb">Message</button>
+      <button class="mb">report</button>
+    </div>
+    <div class="social-stats">
+      <div class="data">
+        <i class='bx bx-heart'></i>
+        <span class="number">120k</span>
+      </div>
+      <div class="data">
+        <i class='bx bx-message-rounded'></i>
+        <span class="number">50k</span>
+      </div>
+      <div class="data">
+        <i class='bx bx-share'></i>
+        <span class="number">120k</span>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</body>
+</html>
